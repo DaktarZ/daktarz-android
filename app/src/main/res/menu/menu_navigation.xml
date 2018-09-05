@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--<group android:id="@+id/grp0" android:checkableBehavior="single" >
+        <item android:id="@+id/demo0"
+            android:title="" />
+    </group>-->
+    <group android:id="@+id/grp8" android:checkableBehavior="single" >
+        <item
+            android:id="@+id/user_profile"
+            android:title="User Profile"
+            android:icon="@drawable/ic_person" />
+    </group>
+    <group android:id="@+id/grp7" android:checkableBehavior="single" >
+        <item
+            android:id="@+id/health_checkup"
+            android:title="Register Free Health Checkup"
+            android:icon="@drawable/ic_home" />
+    </group>
+    <group android:id="@+id/grp1" android:checkableBehavior="single" >
+        <item
+            android:id="@+id/home"
+            android:title="Book an appointment"
+            android:icon="@drawable/book_an_appointment" />
+    </group>
+    <group android:id="@+id/grp2" android:checkableBehavior="single" >
+        <item
+            android:id="@+id/chat"
+            android:title="Chat or Video Call"
+            android:icon="@drawable/ic_chat"/>
+    </group>
+    <group android:id="@+id/grp3" android:checkableBehavior="single" >
+        <item
+            android:id="@+id/trash"
+            android:title="Diagonistic Test"
+            android:icon="@drawable/diagnosis_lab_icon"/>
+    </group>
+    <group android:id="@+id/grp9" android:checkableBehavior="single" >
+        <item
+            android:id="@+id/health_article"
+            android:title="Health Articles"
+            android:icon="@drawable/articles"/>
+    </group>
+    <group android:id="@+id/grp12" android:checkableBehavior="single" >
+        <item
+            android:id="@+id/yoga_life"
+            android:title="Yoga for Life"
+            android:icon="@drawable/yoga"/>
+    </group>
+    <group android:id="@+id/grp10" android:checkableBehavior="single" >
+        <item
+            android:id="@+id/order_medicine"
+            android:title="Order Medicines"
+            android:icon="@drawable/order_medicine"/>
+    </group>
+    <group android:id="@+id/grp11" android:checkableBehavior="single" >
+        <item
+            android:id="@+id/media_records"
+            android:title="View Medical Records"
+            android:icon="@drawable/view_record"/>
+    </group>
+    <group android:id="@+id/grp4" android:checkableBehavior="single" >
+        <item
+            android:id="@+id/settings"
+            android:title="Settings"
+            android:icon="@drawable/ic_setting"/>
+    </group>
+    <group android:id="@+id/grp6" android:checkableBehavior="single" >
+        <item
+            android:id="@+id/logout"
+            android:title="Logout"
+            android:icon="@drawable/logout"/>
+    </group>
+    <group android:id="@+id/grp5" android:checkableBehavior="single" >
+        <item android:id="@+id/demo"
+            android:title="" />
+    </group>
+</menu>

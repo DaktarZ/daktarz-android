@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/White">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="96dp"
+            android:padding="10dp"
+            android:layout_marginBottom="30dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/daktar_logo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:weightSum="1" >
+
+        <EditText
+            android:id="@+id/edtfirstname"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.34"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/inputbox"
+            android:ems="10"
+            android:hint="First Name"
+            android:imeOptions="actionNext"
+            android:text=""
+            android:paddingLeft="10dp"
+            android:singleLine="true" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/edtmiddlename"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.34"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/inputbox"
+            android:ems="10"
+            android:hint="Middle Name"
+            android:imeOptions="actionNext"
+            android:text=""
+            android:paddingLeft="10dp"
+            android:singleLine="true" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/edtlastname"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.32"
+            android:background="@drawable/inputbox"
+            android:ems="10"
+            android:hint="Last Name"
+            android:imeOptions="actionNext"
+            android:text=""
+            android:paddingLeft="10dp"
+            android:singleLine="true" >
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_marginTop="10dp">
+
+        <EditText
+            android:id="@+id/edtage"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/inputbox"
+            android:ems="10"
+            android:hint="Age"
+            android:imeOptions="actionNext"
+            android:inputType="number"
+            android:text=""
+            android:paddingLeft="10dp"
+            android:singleLine="true" >
+        </EditText>
+
+        <Spinner
+            android:id="@+id/edtblood_group"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:spinnerMode="dropdown"
+            android:background="@drawable/round_border_livestatus"
+            android:ems="10"
+            android:hint="Blood Group"
+            android:imeOptions="actionNext"
+            android:text=""
+            android:paddingLeft="10dp"
+            android:singleLine="true" >
+        </Spinner>
+    </LinearLayout>
+
+      <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            android:layout_marginTop="10dp">
+
+        <RadioGroup
+            android:id="@+id/radio"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="0.5">
+
+            <RadioButton
+                android:id="@+id/radioMale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Male"
+                android:checked="true" />
+
+            <RadioButton
+                android:id="@+id/radioFemale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Female" />
+
+        </RadioGroup>
+
+          <EditText
+              android:id="@+id/edtcity"
+              android:layout_width="0dp"
+              android:layout_height="match_parent"
+              android:layout_weight="0.5"
+              android:layout_marginLeft="10dp"
+              android:background="@drawable/inputbox"
+              android:ems="10"
+              android:hint="City"
+              android:imeOptions="actionNext"
+              android:inputType="text"
+              android:text=""
+              android:paddingLeft="10dp"
+              android:singleLine="true" >
+          </EditText>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            android:layout_marginTop="10dp">
+
+            <EditText
+                android:id="@+id/edtstate"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:background="@drawable/inputbox"
+                android:ems="10"
+                android:hint="State"
+                android:imeOptions="actionNext"
+                android:inputType="text"
+                android:text=""
+                android:paddingLeft="10dp"
+                android:singleLine="true" >
+            </EditText>
+
+
+            <EditText
+                android:id="@+id/edtpincode"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/inputbox"
+                android:ems="10"
+                android:hint="Pincode"
+                android:imeOptions="actionNext"
+                android:inputType="number"
+                android:text=""
+                android:paddingLeft="10dp"
+                android:singleLine="true" >
+            </EditText>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/inputbox"
+            android:weightSum="2" >
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="0dp"
+                android:paddingLeft="5dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".15"
+                android:src="@drawable/address_location" />
+
+            <EditText
+                android:id="@+id/edtaddress"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.85"
+                android:background="@null"
+                android:lines="2"
+                android:ems="10"
+                android:hint="Address"
+                android:text=""
+                android:imeOptions="actionNext"
+                android:paddingLeft="10dp"
+                android:maxLines="2"
+                android:singleLine="true">
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/inputbox" >
+
+            <EditText
+                android:id="@+id/edtprevious_history"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:lines="3"
+                android:ems="10"
+                android:hint="Any Prevoius Medical History"
+                android:text=""
+                android:imeOptions="actionDone"
+                android:paddingLeft="10dp"
+                android:maxLines="3"
+                android:singleLine="true">
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="right">
+
+            <Button
+                android:id="@+id/btnConfirm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/save_button_background"
+                android:text="Next"
+                android:textColor="@color/White" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

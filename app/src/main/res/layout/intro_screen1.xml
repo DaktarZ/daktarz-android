@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <TextView
+        android:layout_above="@+id/tour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Welcome to Daktarz"
+        android:textColor="@color/White"
+        android:textSize="20sp"
+        android:paddingTop="25dp"/>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center" >
+
+    <!--<TextView
+        android:layout_above="@+id/tour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Welcome to Daktarz"
+        android:textColor="@color/White"
+        android:textSize="20sp"
+        android:layout_marginBottom="20dp"/>-->
+
+    <LinearLayout
+        android:id="@+id/tour"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_margin="30dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:background="#fff">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/doctor_splash1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Get Assistance"
+            android:textSize="18sp"
+            android:textColor="@color/colorAccent"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="35dp"
+            android:paddingRight="35dp"
+            android:text="Doctor will come and give assistance righ on the accident spot."
+            android:textSize="12sp"
+            android:textColor="@color/colorPrimaryDark"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="3/3"
+            android:textColor="@color/colorPrimaryDark"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>  </LinearLayout>

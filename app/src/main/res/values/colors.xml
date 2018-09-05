@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#26abe3</color>
+    <color name="colorPrimaryDark">#26abe3</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="White">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="green">#15B082</color>
+    <color name="nav_drawer">#242F34</color>
+    <color name="light_background">#D9E5E9</color>
+    <color name="proceed_btn">#D4D8D9</color>
+    <color name="sendotp_grey">#636363</color>
+    <color name="sendotp_light_grey">#D9D9D9</color>
+
+    <array name="dot_on_page_active">
+        <item>#636363</item>
+        <item>#636363</item>
+        <item>#636363</item>
+
+    </array>
+
+    <array name="dot_on_page_not_active">
+        <item>#00A6E2</item>
+        <item>#00A6E2</item>
+        <item>#00A6E2</item>
+    </array>
+
+</resources>

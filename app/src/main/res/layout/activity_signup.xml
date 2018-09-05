@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+       android:background="@color/White">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/top_head" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/imageView1"
+        android:gravity="center"
+        android:paddingBottom="5dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="5dp">
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/inputbox"
+            android:weightSum="2">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".15"
+                android:paddingLeft="5dp"
+                android:src="@drawable/user" />
+
+            <EditText
+                android:id="@+id/edtusername"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.85"
+                android:background="@null"
+                android:ems="10"
+                android:hint="User Name"
+                android:imeOptions="actionNext"
+                android:paddingLeft="10dp"
+                android:singleLine="true"
+                android:text=""></EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_alignLeft="@+id/linearLayout1"
+            android:layout_below="@+id/linearLayout1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/inputbox"
+            android:weightSum="2">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".15"
+                android:paddingLeft="5dp"
+                android:src="@drawable/address_location" />
+
+            <EditText
+                android:id="@+id/edtaddress"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.7"
+                android:background="@null"
+                android:ems="10"
+                android:hint="Address"
+                android:imeOptions="actionNext"
+                android:lines="3"
+                android:maxLines="3"
+                android:minLines="3"
+                android:padding="5sp"
+                android:paddingLeft="10dp"
+                android:scrollHorizontally="false"
+                android:singleLine="true"
+                android:text=""></EditText>
+
+            <ImageView
+                android:id="@+id/location_icon"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".15"
+                android:paddingRight="5dp"
+                android:src="@drawable/location_icon" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignLeft="@+id/linearLayout2"
+            android:layout_below="@+id/linearLayout2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/inputbox"
+            android:weightSum="2">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".15"
+                android:paddingLeft="5dp"
+                android:src="@drawable/password" />
+
+            <EditText
+                android:id="@+id/edtpassword"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.85"
+                android:background="@null"
+                android:ems="10"
+                android:hint="Password"
+                android:imeOptions="actionDone"
+                android:inputType="textPassword"
+                android:paddingLeft="10dp"
+                android:singleLine="true"></EditText>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnConfirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/linearLayout3"
+            android:layout_below="@+id/linearLayout3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="45dp"
+            android:layout_marginRight="45dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/save_button_background"
+            android:text="Confirm"
+            android:textColor="@color/White" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/btnlogin"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/ic_launcher_background"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+</LinearLayout>
+
+</ScrollView>

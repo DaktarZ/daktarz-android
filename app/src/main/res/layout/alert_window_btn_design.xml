@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_margin="10dp"
+    android:padding="15sp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5sp"
+        android:orientation="horizontal">
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/alert_background_filter"
+            android:layout_margin="5dp"
+            android:padding="5sp" >
+
+            <LinearLayout
+                android:id="@+id/relativeLayout1"
+                android:layout_width="250dp"
+                android:layout_height="120dp"
+                android:layout_centerInParent="true"
+                android:background="@color/White"
+                android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnConfirm"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/save_button_background"
+            android:text="Register for Free health checkup"
+            android:textColor="@color/White" />
+
+            </LinearLayout>
+
+    <Button
+        android:id="@+id/button_close"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignRight="@+id/relativeLayout1"
+        android:layout_alignTop="@+id/relativeLayout1"
+        android:background="@drawable/btn_cancel" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/listview_layoutbackground"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/textview_background"
+        android:orientation="horizontal"
+        android:padding="2dp"
+        android:weightSum="1" >
+
+        <TextView
+            android:id="@+id/tvmVehicleName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".95"
+            android:padding="2dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/White"
+            android:textSize="14sp" />
+
+        <!--
+            <LinearLayout
+	        android:layout_width="0dp"
+	        android:layout_height="match_parent" 
+	        android:layout_weight=".2"
+	        android:gravity="center"
+	        android:background="@drawable/edt_background"
+	        android:padding="2dp"> -->
+
+        <ImageView
+            android:id="@+id/ivlocstatus"
+            android:layout_width="10sp"
+            android:layout_height="20sp"
+            android:layout_gravity="center"
+            android:layout_weight=".05"
+            android:src="@drawable/btn_cancel" />
+
+        <!-- </LinearLayout> -->
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:padding="2sp"
+        android:weightSum="2" >
+
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".8"
+            android:padding="2dp"
+            android:text="Qualification:"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ffa500"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tvmCurrentSpeed"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.2"
+            android:padding="3dp"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:padding="2sp"
+        android:weightSum="2" >
+
+        <TextView
+            android:id="@+id/tv4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".8"
+            android:padding="2dp"
+            android:text="Mobile No:"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ffa500"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tvmDistance"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.2"
+            android:padding="3dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:padding="2sp"
+        android:weightSum="2" >
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".8"
+            android:padding="2dp"
+            android:text="Address:"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ffa500"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tvmCurrentLocation"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.2"
+            android:padding="3dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+    </LinearLayout>
+      <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:padding="2sp"
+        android:weightSum="2" >
+
+        <TextView
+            android:id="@+id/tv6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".8"
+            android:padding="2dp"
+            android:text="Specification:"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ffa500"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tvmCurrenttime"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.2"
+            android:padding="3dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+</LinearLayout>

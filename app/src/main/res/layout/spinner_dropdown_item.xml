@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" 
+    android:padding="6dp"
+    android:gravity="center"
+    android:background="@color/light_background">
+
+    <ImageView
+        android:id="@+id/ivspinner1icon"
+        android:layout_width="20sp"
+        android:layout_height="20sp"
+        android:padding="0dp"
+        android:src="@drawable/main_logo"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/tvspinner1text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Text"
+        android:singleLine="true"
+        android:textSize="18sp"
+        android:textAlignment="inherit"
+        android:textColor="@color/White"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</LinearLayout>
